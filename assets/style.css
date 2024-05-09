@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@200&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -251,4 +252,67 @@ footer nav ul {
 
 #contact div {
 	position: relative;
+}
+
+@media all and (max-width: 992px){
+
+	#contact img {
+		width: 60px;
+		position: absolute;
+		top: 22px;
+		left: 215px;
+	}
+
+	#contact .mail {
+		width: 100px;
+		margin: 10px;
+		position: absolute;
+		top: 2px;
+		left: 33px;
+	}
+
+	figcaption {
+		left: 44px;
+	}
+
+	.booki{
+		left: 71px;
+	}
+
+	.printIt {
+		left: 70px;
+	}
+	
+}
+
+@media all and (max-width: 768px){
+	#contact img {
+		left: 122px;
+	}
+	#contact .mail {
+		left: 05px;
+	}
+	header {
+		flex-direction: column;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		display: flex;
+		justify-content: center;
+	}
+	.gallery {
+		display: block;
+	}
+	figcaption {
+		left: 127px;
+	}
+	.booki{
+		left: 168px;
+	}
+
+	.printIt {
+		left: 160px;
+	}
 }
