@@ -184,6 +184,14 @@ figcaption{
 	
 }
 
+.gallery video{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
 #contact {
 	width: 50%;
 	margin: auto;
@@ -255,6 +263,10 @@ footer nav ul {
 @media all and (max-width: 992px){
 	
 	.gallery img {
+		height: 490px;
+	  }
+
+	.gallery video {
 		height: 490px;
 	  }
 	
